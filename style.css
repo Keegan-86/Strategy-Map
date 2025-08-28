@@ -22,7 +22,8 @@ body {
   margin: 0;
   font-weight: 800;
   /* Use a solid white color for the banner text */
-  color: #ffffff;
+  /* Ensure the banner text stays white even if other gradients apply */
+  color: #ffffff !important;
 }
 
 .subtitle {
@@ -140,7 +141,8 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   /* Display cost values in black and bold */
-  color: #000000;
+  /* Force black text to override any conflicting styles */
+  color: #000000 !important;
   margin-left: 0.5rem;
 }
 
@@ -228,7 +230,8 @@ body {
 }
 
 .horizon-total span {
-  color: #4b5fd9;
+  /* Display horizon totals in black for clarity */
+  color: #000000 !important;
 }
 
 /* Overview summary row */
@@ -262,5 +265,6 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   /* Display summary totals in black and bold */
-  color: #000000;
+  /* Ensure summary totals render in black consistently */
+  color: #000000 !important;
 }
