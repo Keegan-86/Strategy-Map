@@ -21,10 +21,8 @@ body {
   font-size: 2.5rem;
   margin: 0;
   font-weight: 800;
-  /* Use gradient text for emphasis */
-  background: linear-gradient(90deg, #f472b6 0%, #8b5cf6 50%, #0ea5e9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* Use a solid white color for the banner text */
+  color: #ffffff;
 }
 
 .subtitle {
@@ -37,7 +35,8 @@ body {
 .tabs {
   display: flex;
   justify-content: center;
-  gap: 0.75rem;
+  /* Increase spacing between tabs */
+  gap: 1rem;
   margin-bottom: 1rem;
   flex-wrap: wrap;
 }
@@ -140,7 +139,8 @@ body {
 .theme-total {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #8b5cf6;
+  /* Display cost values in black and bold */
+  color: #000000;
   margin-left: 0.5rem;
 }
 
@@ -261,5 +261,6 @@ body {
 .summary-total {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #8b5cf6;
+  /* Display summary totals in black and bold */
+  color: #000000;
 }
