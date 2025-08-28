@@ -29,7 +29,8 @@ body {
 .subtitle {
   font-size: 1rem;
   margin: 0.5rem 0 0;
-  color: #f0f9ff;
+  /* Use pure white for the banner subtitle to improve contrast */
+  color: #ffffff !important;
 }
 
 /* Tab navigation */
@@ -37,7 +38,8 @@ body {
   display: flex;
   justify-content: center;
   /* Increase spacing between tabs */
-  gap: 1.5rem;
+  /* Further increase horizontal spacing between tabs to reduce visual crowding */
+  gap: 2rem;
   margin-bottom: 1.25rem;
   flex-wrap: wrap;
 }
